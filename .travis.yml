@@ -3,4 +3,5 @@ language: java
 script:
   - jdk_switcher use oraclejdk8
 
-  #trollo
+before_install:
+  - sudo apt-get update -qq
