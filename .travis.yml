@@ -1,7 +1,4 @@
 language: java
 
-script:
-  - jdk_switcher use oraclejdk8
-
 before_install:
   - git clone https://github.com/horttanainen/PaivanUutiset.git; mvn clean install -U -f PaivanUutiset/pom.xml;
