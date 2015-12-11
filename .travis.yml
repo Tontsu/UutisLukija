@@ -4,5 +4,7 @@ jdk:
   - oraclejdk8
 
 before_install:
-    git clone https://github.com/horttanainen/HackerNewsUutiset.git;
+    git clone https://github.com/hy-ohtu/PaivanUutiset.git;
+    mvn clean install -U -f PaivanUutiset/pom.xml;
+    git clone https://github.com/hy-ohtu/HackerNewsUutiset.git;
     mvn clean install -U -f HackerNewsUutiset/pom.xml;
