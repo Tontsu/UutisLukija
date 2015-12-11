@@ -2,3 +2,5 @@ language: java
 
 script:
   - jdk_switcher use oraclejdk8
+
+  #trollo
